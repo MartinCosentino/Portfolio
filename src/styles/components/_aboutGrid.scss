@@ -124,10 +124,24 @@
     color: wheat;
     padding: 1rem;
     transition: 0.5s;
+    overflow: hidden; 
     &:hover{
         border: 1px solid peru;
 
     }
 
 }
+
+@media screen and (max-width: 540px) {
+
+   
+    .f{
+padding: 4rem;
+    
+        }
+     
+       
+
+}
+
 

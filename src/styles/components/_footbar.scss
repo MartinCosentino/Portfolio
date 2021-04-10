@@ -1,11 +1,12 @@
 .footer__main{
     background: darken($color: rgba(139, 79, 0, 0.3), $amount: 15);
-    height: 20vh;
+    height: 30vh;
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 20px;
     border: 1px solid orange;
+    padding:3rem;
+
 
 .footer__ul{
     display: flex;

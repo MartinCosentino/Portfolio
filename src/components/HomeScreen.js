@@ -48,7 +48,7 @@ export const HomeScreen = () => {
 
                             {/* Una vez creada la carpeta docs en prod. crear link a la carpeta relativa del cv utilizando './' */}
 
-                            <button className="btn btn-dark"> Descarga mi CV</button>
+                            <a href="cvES.pdf" download="cvES.pdf">  <button className="btn btn-dark"> Descarga mi CV</button></a>
 
 
 
@@ -62,15 +62,13 @@ export const HomeScreen = () => {
                             <img src="../img/Captura.PNG" className="home__img img-fluid" style={{ width: "16rem" }} alt="Responsive image" />
 
                             <div className="row">
-                                <div className="col">
-                                    <div className="contenedor fluid">
-                                        <p className="home__estaticSub">I am a</p>
-                                        <ul className="home__UlSub">
-                                            <li>Developer</li>
-                                            <li>Designer</li>
-                                            <li>Dreamer</li>
-                                        </ul>
-                                    </div>
+                                <div className="col contenedor">
+                                    <p className="home__estaticSub">I am a</p>
+                                    <ul className="home__UlSub">
+                                        <li>Developer</li>
+                                        <li>Designer</li>
+                                        <li>Dreamer</li>
+                                    </ul>
                                 </div>
                             </div>
 

@@ -83,23 +83,22 @@ export const AboutScreen = () => {
                     <div className=" col-12 d">
                         <MIS_REDES />
                     </div>
-
-
-
-                </div>
-                <div className="row-fluid">
-                    <div className="col">
-                        <p className="about__text"> Thinker out of the box. <br />
+                    <div className=" col-12 d p-4">
+                        <p> Thinker out of the box. <br />
             that defines me, <br />
             what led me to learn on my own, to be self-taught <br />
             without any agenda of any institution, <br />
              just learning from who, where, and when I choose.</p>
+
+                    </div>
+                    <div className=" col-fluid">
+
+                        <Footer />
                     </div>
                 </div>
-                <div className="row-fluid">
-                    <Footer />
 
-                </div>
+
+
 
             </div>
 

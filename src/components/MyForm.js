@@ -23,13 +23,13 @@ export default class MyForm extends React.Component {
                 method="POST"
             >
                 <div className="form-group">
+                    <br />
                     <label for="email" style={{ color: "black" }}>Email address:</label>
                     <input type="email" name="email" className=" form-control" id="email" placeholder="name@example.com" />
-                    <br />
 
                     <label for="text" style={{ color: "black" }}>Subject:</label>
                     <input type="text" name="subject" className=" form-control" id="text" />
-                    <br />
+
                     <label style={{ color: "black" }}>Mensaje:</label>
                     <textarea className=" form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
