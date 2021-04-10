@@ -1,0 +1,33 @@
+@import './components/contact';
+@import './components/nav';
+@import './components/footbar';
+@import './components/about';
+@import './components/aboutGrid';
+@import './components/skills';
+@import './components/redes';
+@import './components/form';
+@import './components/redesCards';
+@import './components/porfolio';
+@import './components/home';
+
+body {
+    margin: 0px;
+  background: darken($color: grey, $amount: 40); 
+    
+}
+
+.MainContainer{
+    background: darken($color: grey, $amount: 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+i.networks{
+  z-index: 1;
+  font-size: 10vh;
+  color:darken($color: grey, $amount: 30) ;
+  transition: 1s ease;
+
+} 

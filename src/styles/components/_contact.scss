@@ -1,0 +1,67 @@
+.contact__left{
+    padding: 3rem;
+    background: transparent;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: wheat;
+    transform: skew(20deg);
+    animation : scales 0.5s ease inifinite alternate;
+;
+    
+}
+
+
+
+.contact__right{
+  padding: 2rem;
+  background: transparent;
+  border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+    color: wheat;
+    transform: skew(-20deg);
+
+
+}
+
+.contact__container{
+    border: 0.5px solid orange;
+    padding: 2rem;    
+}
+
+
+.contact__card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darken($color: grey, $amount: 35);
+    color: orange;
+    height: 20rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    &:hover{
+         background-color: darken($color: grey, $amount: 30);
+
+
+    }
+    i{
+    font-size: 5rem;
+}
+
+}
+
+
+.contact__cardContenedor{
+    border: 1px solid white;
+    padding: 2px;
+
+    display: flex;
+    justify-content: center;
+
+}    

@@ -1,0 +1,24 @@
+.CardContainer{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+        
+}
+
+.cardd{
+    background-color: transparent;
+    border: 1px solid orange;
+    border-radius: 3%;
+    margin:1rem;
+    transition: 0.5s ease-in-out;
+
+    &:hover{
+        background-color: darken($color: grey, $amount: 35);
+        border: 5px dotted orange;  
+    }
+}
+
+
+img{
+    border-radius: 50%;
+}

@@ -1,0 +1,133 @@
+
+
+
+.a{
+    background-color: transparent;
+    border: 1px solid red;
+    text-align: center;
+    color: wheat;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    transition: 0.1s ease-in;
+
+    &:hover{
+        border: 3px solid red;
+        }
+
+
+}
+
+.TitlePage{
+    transition: 0.3s ease;
+    font-size: 8vw;
+    font-family: 'Lobster', cursive;
+    text-shadow: -4px 5px 0 darken($color: orange, $amount: 10), -14px 7px 0 #0a0e27;
+    transition: 1s ease-in-out;
+    
+    &:hover{
+        border: 2px dashed orange;
+        border-radius: 50%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+
+    .TitlePage{
+        text-shadow: -2px 3px 0 darken($color: orange, $amount: 10), -6px 7px 0 #0a0e27;
+
+}}
+ 
+
+@media screen and (max-width: 360px) {
+
+.TitlePage{
+    font-size: 20vw;
+}
+}
+.b{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    &:hover{
+        border: 2px solid orange;
+        }
+    .Name {
+        color: white;
+        font-size: 120%;
+
+    }
+
+}
+.c{
+    background-color: transparent;
+    border: 1px solid darken($color: red, $amount: 15);
+    text-align: center;
+    color: wheat;
+    padding: 0.6rem;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease-in;
+    &:hover{
+        border:1px solid red;
+        }
+
+}
+/*  */
+
+.container2{
+    padding: 0%;
+}
+
+
+
+.d{
+    grid-area: d;
+    background-color: transparent;
+    border: 1px solid yellow;
+    text-align: center;
+    color: wheat;
+    padding: 0%;
+
+}
+.e{
+    grid-area: e;
+    background-color: transparent;
+    border: 1px solid pink;
+    color: wheat;
+    display: grid;
+    grid-template-areas: 
+
+    "l c r";
+
+
+}
+
+.f{
+    grid-area: f;
+    background-color: transparent;
+    border: 1px solid peru;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    padding: 1rem;
+    transition: 0.5s;
+    &:hover{
+        border: 1px solid peru;
+
+    }
+
+}
+

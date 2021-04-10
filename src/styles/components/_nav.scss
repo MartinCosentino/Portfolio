@@ -1,0 +1,57 @@
+.nav__main{
+
+    display: flex;
+    justify-content: flex-start;
+    // background: url(https://areajugones.sport.es/wp-content/uploads/2020/04/hunter-x-hunter-manga.jpg);
+    background-color: transparent;
+    border:1px solid orange;
+    background-attachment: fixed;
+    background-size: contain;
+    
+
+   
+
+    .nav__ul{
+
+        padding:0.5%;
+        margin:10px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid chocolate;
+        border-top: none;
+        width: 100vw;
+        background: darken($color: grey, $amount: 40);     
+      
+    }
+     
+    .nav__ulTitle{
+        color: white;
+    }
+    .nav__button{
+        border-radius: 50%;
+        background: darken($color: grey, $amount: 40); 
+        border: 2px solid chocolate;
+        cursor: pointer;
+        font-weight: bolder;
+        font-family: sans-serif;
+        list-style: none;
+        margin: 5px;
+        padding:20px;
+        color:orange;
+        outline: none;
+
+        &:active{
+            background-color: orange;
+        }
+        &:hover{
+         background-color: lighten($color: chocolate, $amount: 10);
+         color:black;
+     }
+    }
+}
+
+
+
+.nav__icon{
+    font-size: 1.5rem;
+}

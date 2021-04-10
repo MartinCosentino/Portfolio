@@ -1,0 +1,122 @@
+.skills__progressBar{
+    list-style: none;
+}
+
+
+.progress{
+    width: 10rem;
+    
+
+}
+
+.bg-violet{
+    background-color:purple;
+}
+
+.bg-pink{
+    background-color:pink;
+}
+
+.bg-orange{
+    background-color: orangered;
+}
+
+.skills__contenedor{
+    width: 100%;
+
+}
+
+.skills__icons{
+    border: 1px solid darken($color: orange, $amount: 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 85%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+
+    overflow-x:visible;
+}
+
+label{
+    i{
+        font-size: 2.5rem;
+        transition: 0s ease-in-out;
+   
+    }
+}
+
+
+
+.skill__html{
+
+    i{
+        
+            &:hover{
+                color:orangered;}
+        
+    }
+}
+
+
+.skill__css{
+
+    i{
+        
+            &:hover{
+                color: rgb(49,164,213)}
+        
+    }
+}
+
+
+.skill__js{
+
+    i{
+        
+            &:hover{
+                color: rgb(255,194,10);}
+        
+    }
+}
+
+
+.skill__sass{
+
+    i{
+        
+            &:hover{
+                color: rgb(255,192,203);}
+        
+    }
+}
+
+.skill__bs{
+
+    i{
+        
+            &:hover{
+                color: rgb(83,59,120)}
+        
+    }
+}
+
+.skill__react{
+
+    i{
+        
+            &:hover{
+                color: rgb(1,216,255)}
+        
+    }
+}
+
+.skill__node{
+
+    i{
+        
+            &:hover{
+                color: rgb(76,149,65)}
+        
+    }
+}

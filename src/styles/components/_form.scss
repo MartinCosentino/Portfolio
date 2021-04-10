@@ -1,0 +1,28 @@
+.form__contenedor{
+    padding: 2rem;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5px solid red;
+    border-radius: 50%;
+    height: 32rem;
+    background: rgb(26,26,26);
+    background: orange;
+}
+
+.form__button{
+
+    margin-left: 30%;
+}
+@media screen and (max-width: 360px) {
+    .form__contenedor{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: auto;
+        width: 20rem;
+
+    }
+   }
+   
+

@@ -1,0 +1,32 @@
+.footer__main{
+    background: darken($color: rgba(139, 79, 0, 0.3), $amount: 15);
+    height: 20vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid orange;
+
+.footer__ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+
+}
+}
+
+.footer__li{
+    list-style: none;
+    text-decoration: none;
+    .footer__a{
+        color: darken($color: orange, $amount: 17);
+        text-decoration: none;
+
+   
+    }
+}
+.footer__a:hover{
+    text-decoration: underline;
+    color:indianred
+}

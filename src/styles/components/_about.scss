@@ -1,0 +1,174 @@
+.about__main{
+    background-color:darken($color: grey, $amount: 40);
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    margin-top: 1%
+};
+
+.about__text{
+    color: darken($color: white, $amount: 10);
+    padding: 1rem;
+    border: double 5px darken($color: orange, $amount: 20);
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+
+.about__circleIMG{
+   
+
+    height: 35vh;
+    width: 28vh;
+
+    border: 3px inset grey;
+    border-radius: 50%;
+    background-size: contain;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease-in 0.9s;
+    &:hover{
+        border: 3px outset
+        lighten($color: grey, $amount: 15);
+    }   
+}
+
+
+
+.about__textLeft{
+    grid-area: l;
+    border: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    align-content: stretch;
+    justify-items: stretch;
+    transition: 0.10s ease-in;
+    &:hover{
+        color:white;
+        }
+
+
+}
+
+.about__NameText{
+    font-size: 110%;
+    transition: ease 100s;
+
+}
+
+.about__textCenter{
+    grid-area: c;
+    border: 1px solid black;
+    padding:2rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    transition: 1s ease;
+text-align: center;
+
+    &:hover{
+        color: white;
+    }
+
+
+  
+
+}
+.about__textRight{
+    grid-area: r;
+
+    border: 1px solid grey;
+    padding: 30px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    transition: 1s ease;
+
+
+    &:hover{
+        color: white;
+    }
+
+
+}
+
+
+.MIS_REDES{
+    transition: 0.1s ease;
+    
+    &:hover{color:lighten($color: yellow, $amount: 40);}
+}
+
+//////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 768px) {
+
+   
+    .about__circleIMG{
+
+
+        width: 22rem;
+    
+        height: auto;
+    
+        }
+     
+       
+
+}
+
+
+
+//////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 992px) {
+
+
+    .about__circleIMG{
+
+
+    width: 30vh;
+
+    height: 35vh;
+
+    }
+
+}
+
+//////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 1024px) {
+
+   
+    .about__circleIMG{
+
+
+        width: 18vh;
+    
+        height: 23vh;
+    
+        }
+     
+}
+
+//////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 1230px) {
+
+   
+    .about__circleIMG{
+
+
+        width: 35vh;
+
+        height: auto;
+    
+        }
+     
+}
