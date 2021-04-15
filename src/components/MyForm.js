@@ -36,8 +36,8 @@ export default class MyForm extends React.Component {
                 <br />
 
 
-                {status === "SUCCESS" ? <h2 style={{ color: "black" }}>Gracias!</h2> : <button className=" form__button btn btn-dark" value="Send" type="submit">Submit</button>}
-                {status === "ERROR" && <p style={{ color: "black" }}>Ooops! There was an error.</p>}
+                {status === "SUCCESS" ? <h5 style={{ color: "black", paddingLeft: "3.5rem", font: "Lobster, cursive;" }}>Enviado, <br /> Gracias.</h5> : <button className=" form__button btn btn-dark" value="Send" type="submit">Submit</button>}
+                {status === "ERROR" && <p style={{ color: "black", fontFamily: "'Lobster', cursive;" }}>Ooops! There was an error.</p>}
             </form>
 
         );

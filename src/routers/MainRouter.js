@@ -8,7 +8,6 @@ import {
 import { AboutScreen } from '../components/AboutScreen';
 import { HomeScreen } from '../components/HomeScreen';
 import { ContactScreen } from '../components/ContactScreen';
-import { Footer } from '../components/Footer';
 
 export const MainRouter = () => {
 

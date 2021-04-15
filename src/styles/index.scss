@@ -13,9 +13,13 @@
 body {
     margin: 0px;
   background: darken($color: grey, $amount: 40); 
-    
+ 
+  
 }
-
+*::selection{
+  background: orange;
+  color: white;
+}
 .MainContainer{
     background: darken($color: grey, $amount: 40);
     display: flex;

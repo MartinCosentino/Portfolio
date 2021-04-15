@@ -20,25 +20,30 @@
 }
 
 .TitlePage{
-    transition: 0.3s ease;
+    
     font-size: 8vw;
     font-family: 'Lobster', cursive;
     text-shadow: -4px 5px 0 darken($color: orange, $amount: 10), -14px 7px 0 #0a0e27;
-    transition: 1s ease-in-out;
-    
+    transition: 0.29s ease-in-out;
+    border: 2px dashed transparent;
+    border-radius: 50%;
     &:hover{
         border: 2px dashed orange;
         border-radius: 50%;
     }
 }
+
 @media screen and (max-width: 768px) {
 
 
     .TitlePage{
         text-shadow: -2px 3px 0 darken($color: orange, $amount: 10), -6px 7px 0 #0a0e27;
+        font-size: 15vw;
+}
 
-}}
- 
+}
+
+
 
 @media screen and (max-width: 360px) {
 
@@ -54,7 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 7%;
+    padding: 3%;
     &:hover{
         border: 2px solid orange;
         }

@@ -13,7 +13,7 @@ export const AboutScreen = () => {
                 <div className="row">
                     <div className="col-xl-4 col-md-4 col-sm-12	 a">
 
-                        <h1 className="TitlePage">        <Roll right cascade>
+                        <h1 className="TitlePage display-5">        <Roll right cascade>
                             About</Roll> <Roll left cascade>Me.</Roll></h1>
 
                     </div>
@@ -21,9 +21,9 @@ export const AboutScreen = () => {
 
 
                     <div className="col-xl-4 col-md-4 col-sm-12 b">
-                        <img src="../img/Captura.PNG" alt="img" className="about__circleIMG img-fluid  animate__animated animate__flip" /><br />
+                        <div style={{ width: "20rem", height: "36vh" }} alt="" className="about__circleIMG img-fluid animate__animated animate__flip" ></div><br />
                         <b className="Name">Martin Cosentino</b>
-                        <sub>25 años de la ciudad de Rosario.</sub>
+                        <sub className="mb-4">25 años de la ciudad de Rosario.</sub>
                     </div>
 
 
@@ -83,13 +83,15 @@ export const AboutScreen = () => {
                     <div className=" col-12 d">
                         <MIS_REDES />
                     </div>
-                    <div className=" col-12 d p-4">
-                        <p> Thinker out of the box. <br />
+                    <div className=" col-12 d p-5">
+                        {/* <p> Thinker out of the box. <br />
             that defines me, <br />
             what led me to learn on my own, to be self-taught <br />
             without any agenda of any institution, <br />
-             just learning from who, where, and when I choose.</p>
-
+             just learning from who, where, and when I choose.</p> */}
+I would like to thank you for the time spent reading my Portfolio. <br />
+ I hope that we can finally develop a prosperous and fruitful <br />
+  working relationship.
                     </div>
                     <div className=" col-fluid">
 

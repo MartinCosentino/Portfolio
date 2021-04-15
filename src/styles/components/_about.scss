@@ -18,20 +18,13 @@
 .about__circleIMG{
    
 
-    height: 35vh;
-    width: 28vh;
-
-    border: 3px inset grey;
     border-radius: 50%;
-    background-size: contain;
+    background-image: url('../../fotoscv/pppc.JPG');
+    background-size: cover;
     background-attachment: local;
     background-repeat: no-repeat;
     background-position: center;
-    transition: ease-in 0.9s;
-    &:hover{
-        border: 3px outset
-        lighten($color: grey, $amount: 15);
-    }   
+
 }
 
 
@@ -39,7 +32,7 @@
 .about__textLeft{
     grid-area: l;
     border: 1px solid grey;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     display:flex;
     flex-direction: column;
@@ -113,9 +106,8 @@ text-align: center;
     .about__circleIMG{
 
 
-        width: 22rem;
-    
-        height: auto;
+        width: auto;
+        height: 26vh;
     
         }
      
@@ -149,7 +141,7 @@ text-align: center;
     .about__circleIMG{
 
 
-        width: 18vh;
+        width: 20vh;
     
         height: 23vh;
     
@@ -165,9 +157,9 @@ text-align: center;
     .about__circleIMG{
 
 
-        width: 35vh;
+        width: 20vw;
 
-        height: auto;
+        height: 35vh;
     
         }
      

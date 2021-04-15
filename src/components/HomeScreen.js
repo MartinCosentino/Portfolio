@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Footer } from './Footer';
 
 
+
 export const HomeScreen = () => {
 
     const spans = document.querySelectorAll('.word span');
@@ -46,11 +47,10 @@ export const HomeScreen = () => {
                             <p className="home__sub">TO MY PAGE </p> <br />
 
 
-                            {/* Una vez creada la carpeta docs en prod. crear link a la carpeta relativa del cv utilizando './' */}
-
-                            <a href="cvES.pdf" download="cvES.pdf">  <button className="btn btn-dark"> Descarga mi CV</button></a>
 
 
+
+                            <Link to="/cv/CvES.pdf" target="_blank" download> <button className="btn btn-dark"> Descarga mi CV</button></Link>
 
 
                         </div>
@@ -59,7 +59,7 @@ export const HomeScreen = () => {
 
                         <div className="col-md-4 col-6 home__imgContenedor">
 
-                            <img src="../img/Captura.PNG" className="home__img img-fluid" style={{ width: "16rem" }} alt="Responsive image" />
+                            <div src="#" className="home__img img-fluid" style={{ width: "16rem", height: "30vh" }} alt="" />
 
                             <div className="row">
                                 <div className="col contenedor">
@@ -88,7 +88,7 @@ export const HomeScreen = () => {
                     <Footer />
 
                 </div>
-            </div>
+            </div >
         </>
     )
 }
