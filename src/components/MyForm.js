@@ -30,7 +30,7 @@ export default class MyForm extends React.Component {
                     <label for="text" style={{ color: "black" }}>Subject:</label>
                     <input type="text" name="subject" className=" form-control" id="text" />
 
-                    <label style={{ color: "black" }}>Mensaje:</label>
+                    <label style={{ color: "black" }}>Message:</label>
                     <textarea className=" form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <br />
