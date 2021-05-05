@@ -16,7 +16,6 @@ export const Footer = () => {
                     <li className="footer__li"><a className="footer__a" href="https://www.instagram.com/martin.cosentino/">Instagram</a> </li>
                     <li className="footer__li"><Link to="/contact" className="footer__a" >Contact</Link></li>
                     <li className="footer__li"><Link to="/about" className="footer__a">Portfolio</Link></li>
-                    <li className="footer__li"><a className="footer__a" href="https://www.udemy.com/user/martin-cosentino/">U. Profile</a></li>
                     <li className="footer__li"><a className="footer__a" href="https://www.sololearn.com/profile/16027029">SoloLearn</a></li>
 
                 </ul>
