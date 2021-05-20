@@ -34,7 +34,7 @@ export const Portfoliox = () => {
                                 <h5 className="card-title">Gif Expert App</h5>
                                 <p className="card-text">Buscando algun gif en particular? gifexpert app lo trae para vos.</p>
                                 <p> <i className="fab fa-react"></i> <i className="fab fa-js"></i> <i className="fas fa-vial"></i></p>
-                                <a href="https://martincosentino.github.io/React-gifExpertApp/" className="btn btn-warning">Ir a la App</a>
+                                <a href="https://giphyexpertapp.netlify.app/" className="btn btn-warning">Ir a la App</a>
                             </div>
                         </div>
 
@@ -46,7 +46,7 @@ export const Portfoliox = () => {
                                 <h5 className="card-title">HeroesAPP</h5>
                                 <p className="card-text">Quien no tuvo un Superheroe favorito en su infancia? buscalo ya en la APP!</p>
                                 <p> <i className="fab fa-react"></i> <i className="fab fa-bootstrap"></i>  <i className="fab fa-js"></i></p>
-                                <a href="https://martincosentino.github.io/HeroesApp" className="btn btn-warning">Ir a la App</a>
+                                <a href="https://heroeapp.netlify.app/" className="btn btn-warning">Ir a la App</a>
                             </div>
                         </div>
                     </Fade>
@@ -81,6 +81,7 @@ export const Portfoliox = () => {
                                 <a href="https://martincosentino.github.io/NamesGenerator/" className="btn btn-warning">Ir a la App</a>
                             </div>
                         </div>
+
                     </Fade>
 
                 </div>
