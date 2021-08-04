@@ -7,18 +7,18 @@ import { Footer } from './Footer';
 
 export const HomeScreen = () => {
 
-    const spans = document.querySelectorAll('.word span');
+    // const spans = document.querySelectorAll('.word span');
 
-    spans.forEach((span, idx) => {
-        span.addEventListener('click', (e) => {
-            e.target.classList.add('active');
-        });
+    // spans.forEach((span, idx) => {
+    //     span.addEventListener('click', (e) => {
+    //         e.target.classList.add('active');
+    //     });
 
-        // Initial animation
-        setTimeout(() => {
-            span.classList.add('active');
-        }, 650 * (idx + 1))
-    });
+    //     // Initial animation
+    //     setTimeout(() => {
+    //         span.classList.add('active');
+    //     }, 650 * (idx + 1))
+    // });
 
 
 
