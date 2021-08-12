@@ -45,19 +45,22 @@ export const AboutScreen = () => {
 
                         <div className="about__textLeft col-12 order-sm-1 col-md-3 ">
                             <h2>My name is <b className="about__NameText">Martin Cosentino</b>,</h2>
-                            <p> I am 25 years old and I am from the city of Rosario,</p>
+                            <p> I'm 25 years old and i from Rosario city,</p>
                             <p>Looking for my first job opportunity in the IT world,</p>
+
                         </div>
 
                         <div className="about__textCenter col-12 order-sm-1 col-md-3 ">
 
-                            <p> I am a  <h2>self-taught student </h2>and <br /> I am focused on the Front-end.</p>
+                            <p> I'm a  <h2>self-taught student </h2>and <br /> I'm focused on the Front-end.</p>
+                            <p>oriented to layout and design</p>
+
                         </div>
 
                         <div className="about__textRight col-12 order-sm-1 col-md-3 ">
 
                             <h2 >My Goal</h2><p> is to master the MERN JavaScript stack,</p>
-                            <p>but I am always open to new technologies.</p>
+                            <p>but I'm always open to new technologies.</p>
                         </div>
 
                         <div className=" col-12 col-md-3 col-sm-12 order-sm-0 f">
@@ -89,9 +92,9 @@ export const AboutScreen = () => {
             what led me to learn on my own, to be self-taught <br />
             without any agenda of any institution, <br />
              just learning from who, where, and when I choose.</p> */}
-I would like to thank you for the time spent reading my Portfolio. <br />
- I hope that we can finally develop a prosperous and fruitful <br />
-  working relationship.
+                        I would like to thank you for the time spent reading my Portfolio. <br />
+                        I hope that we can finally develop a prosperous and fruitful <br />
+                        working relationship.
                     </div>
                     <div className=" col-fluid">
 

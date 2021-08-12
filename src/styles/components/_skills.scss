@@ -21,6 +21,13 @@
     background-color: orangered;
 }
 
+
+   
+
+
+
+
+
 .skills__contenedor{
     width: 100%;
 
@@ -117,6 +124,18 @@ label{
         
             &:hover{
                 color: rgb(76,149,65)}
+        
+    }
+}
+
+
+.skill__ux{
+
+    i{
+        
+            &:hover{
+                color: #FC354C;
+            }
         
     }
 }

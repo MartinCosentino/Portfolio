@@ -65,7 +65,7 @@ export const Skills = () => {
                                 aria-valuenow="100"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
-                                style={{ width: '85%' }}>85%</div>
+                                style={{ width: '75%' }}>75%</div>
                         </div>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export const Skills = () => {
                                 aria-valuenow="50%"
                                 aria-valuemin="0"
                                 aria-valuemax="100"
-                                style={{ width: '65%' }}>65%</div>
+                                style={{ width: '65%', color: 'white' }}>65%</div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ export const Skills = () => {
 
                 <div className="row">
                     <div className="col-2 skills__icons">
-                        <label className="skill__bs">BS4 <i className="fab fa-bootstrap"></i></label>
+                        <label className="skill__bs">BS5<i className="fab fa-bootstrap"></i></label>
                     </div>
                     <div className="col-10 skills__icons">
                         <div className="progress my-1">
@@ -122,7 +122,22 @@ export const Skills = () => {
                 </div>
 
 
+                <div className="row">
+                    <div className="col-2 skills__icons">
+                        <label className="skill__ux">UX/UI<i class="fas fa-palette "></i></label>
+                    </div>
+                    <div className="col-10 skills__icons">
 
+                        <div className="progress my-1 mb-4">
+                            <div className="progress-bar-animated progress-bar-striped  skills__progressBar bg-danger"
+                                role="progressbar"
+                                aria-valuenow="100"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                                style={{ width: '35%' }}>35%</div>
+                        </div>
+                    </div>
+                </div>
 
                 <div className="row">
                     <div className="col-2 skills__icons">
