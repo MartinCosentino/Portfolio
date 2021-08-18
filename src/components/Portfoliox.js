@@ -1,14 +1,15 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
+import Tilt from 'react-vanilla-tilt';
 
 
 export const Portfoliox = () => {
     return (
         <>
-            <h1 className="display-1">Portfolio</h1>
+            <h1 className="display-1 PorfolioTitle my-2">Portfolio</h1>
             <Zoom>
-                <hr />
+                <hr className="m-0" />
             </Zoom>
             <div className="container ">
 

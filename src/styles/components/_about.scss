@@ -24,22 +24,28 @@
     background-attachment: local;
     background-repeat: no-repeat;
     background-position: center;
+    transition: 0.7s ease-in;
 
+    &:hover{
+        background-image: url('../../fotoscv/hoverpic.JPG');
+        background-size: cover;
+        object-fit: fill;
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position: center;
+        }
 }
 
 
-
+.about__textTilt{
+    color: wheat;
+}
 .about__textLeft{
     grid-area: l;
-    border: 1px solid grey;
-    padding: 20px;
-    text-align: center;
     display:flex;
     flex-direction: column;
-    justify-content: stretch;
-    align-items: stretch;
-    align-content: stretch;
-    justify-items: stretch;
+    justify-content: center;
+    align-items: center;
     transition: 0.10s ease-in;
     &:hover{
         color:white;
@@ -51,16 +57,17 @@
 .about__NameText{
     font-size: 110%;
     transition: ease 100s;
+    color: whitesmoke;
+
 
 }
 
 .about__textCenter{
     grid-area: c;
-    border: 1px solid black;
-    padding:2rem;
     display:flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
     transition: 1s ease;
 text-align: center;
 
@@ -75,12 +82,11 @@ text-align: center;
 .about__textRight{
     grid-area: r;
 
-    border: 1px solid grey;
-    padding: 30px;
     text-align: center;
     display:flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
     transition: 1s ease;
 
 

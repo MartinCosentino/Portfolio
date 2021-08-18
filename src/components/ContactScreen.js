@@ -2,7 +2,6 @@ import React from 'react';
 import MyForm from './MyForm';
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
-
 import LightSpeed from 'react-reveal/LightSpeed';
 import { Footer } from './Footer';
 
@@ -72,7 +71,6 @@ export const ContactScreen = () => {
                     <Fade bottom>
 
                         <div className="col-sm-5 my-4  form__contenedor">
-
                             <MyForm />
                         </div>
                     </Fade>

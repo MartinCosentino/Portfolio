@@ -14,10 +14,14 @@
 
     &:hover{
         background-color: darken($color: grey, $amount: 35);
-        border: 5px dotted orange;  
+        border: 4px dotted orange;  
     }
 }
 
+    .PorfolioTitle{
+        background-color:darken($color: grey, $amount: 40);
+        color:wheat;
+    }
 
 img{
     border-radius: 50%;

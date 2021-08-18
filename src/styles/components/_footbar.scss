@@ -13,8 +13,10 @@
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    padding:0;
+    margin: 1vh;
 
-}
+    }
 }
 
 .footer__li{
@@ -23,11 +25,12 @@
     .footer__a{
         color: darken($color: orange, $amount: 17);
         text-decoration: none;
+        
+        &:hover{
+            text-decoration: underline;
+            color:indianred;
+        }
 
    
     }
-}
-.footer__a:hover{
-    text-decoration: underline;
-    color:indianred
 }

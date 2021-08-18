@@ -61,6 +61,35 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
 	transform-origin: bottom left;
 }
 
+
+
+.word span:nth-child(2).active {
+	animation: shrinkjump 1s ease-in-out;
+	transform-origin: bottom center;
+}
+
+
+.word span:nth-child(3).active {
+	animation: falling 2s ease-out;
+	transform-origin: bottom center;
+}
+
+.word span:nth-child(4).active {
+	animation: rotate 1s ease-out;
+}
+
+.word span:nth-child(6).active {
+	animation: rotate 1s ease-out;
+}
+
+.word span:nth-child(7).active {
+	animation: rotate 1s ease-out;
+
+}
+
+
+// KEYFRAMES
+
 @keyframes balance {
 	0%, 100% {
 		transform: rotate(0deg);
@@ -69,11 +98,6 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
 	30%, 60% {
 		transform: rotate(-45deg);
 	}
-}
-
-.word span:nth-child(2).active {
-	animation: shrinkjump 1s ease-in-out;
-	transform-origin: bottom center;
 }
 
 @keyframes shrinkjump {
@@ -90,10 +114,6 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
 	}
 }
 
-.word span:nth-child(3).active {
-	animation: falling 2s ease-out;
-	transform-origin: bottom center;
-}
 
 @keyframes falling {
 	12% {
@@ -121,9 +141,6 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
 	}
 }
 
-.word span:nth-child(4).active {
-	animation: rotate 1s ease-out;
-}
 
 @keyframes rotate {
 	20%, 80% {
@@ -135,9 +152,18 @@ background: linear-gradient(to right, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, F
 	}
 }
 
-.word span:nth-child(7).active {
-	animation: toplong 1.5s linear;
+
+
+@keyframes balance {
+	0%, 100% {
+		transform: rotate(0deg);
+	}
+	
+	30%, 60% {
+		transform: rotate(-45deg);
+	}
 }
+
 
 @keyframes toplong {
 	10%, 40% {

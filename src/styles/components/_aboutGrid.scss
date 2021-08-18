@@ -110,6 +110,7 @@
     border: 1px solid pink;
     color: wheat;
     display: grid;
+    padding-top: 0.5rem;
     grid-template-areas: 
 
     "l c r";
@@ -120,7 +121,7 @@
 .f{
     grid-area: f;
     background-color: transparent;
-    border: 1px solid peru;
+    // border: 1px solid peru;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -131,7 +132,6 @@
     transition: 0.5s;
     overflow: hidden; 
     &:hover{
-        border: 1px solid peru;
 
     }
 
