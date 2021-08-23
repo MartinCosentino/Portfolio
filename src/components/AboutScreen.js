@@ -45,8 +45,8 @@ export const AboutScreen = () => {
                     <div className="row">
 
 
-                        <div className="about__textLeft col-12 order-sm-1 col-md-3 ">
-                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', padding: '3rem' }}>
+                        <div className="about__textLeft col-12 order-sm-1 col-lg-3 col-md-7 mt-3 ">
+                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', paddingTop: '4rem', paddingBottom: '4rem', paddingRight: '1.5rem', paddingLeft: '1.5rem' }}>
                                 <h2 className="about__textTilt" >My name is <b className="about__NameText">Martin Cosentino</b>,</h2>
                                 <p className="about__textTilt"> I'm 25 years old and i from Rosario city,</p>
                                 <p className="about__textTilt">Looking for my first job opportunity in the IT world,</p>
@@ -55,21 +55,21 @@ export const AboutScreen = () => {
 
                         </div>
 
-                        <div className="about__textCenter col-12 order-sm-1 col-md-3 my-3">
-                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', padding: '3rem' }}>
+                        <div className="about__textCenter col-12 order-sm-1 col-lg-3 col-md-6 my-3">
+                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', padding: '4rem' }}>
                                 <p> I'm a  <h2>self-taught student </h2>and <br /> I'm focused on the Front-end.</p>
                                 <p>oriented to layout and design</p>
                             </Tilt>
                         </div>
 
-                        <div className="about__textRight col-12 order-sm-1 col-md-3 ">
-                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', padding: '4.48rem' }}>
+                        <div className="about__textRight col-12 order-sm-1 col-lg-3 col-md-6">
+                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', paddingTop: '6.5rem', paddingBottom: '6.5rem', padding: '4rem' }}>
                                 <h2 >My Goal</h2><p> is to master the MERN JavaScript stack,</p>
                                 <p>but I'm always open to new technologies.</p>
                             </Tilt>
                         </div>
 
-                        <div className=" col-12 col-md-3 col-sm-12 order-sm-0 f">
+                        <div className=" col-12 col-lg-3  col-sm-12 order-sm-0 col-md-5 f">
                             <SoftSkills />
                         </div>
 
@@ -93,11 +93,7 @@ export const AboutScreen = () => {
                         <MIS_REDES />
                     </div>
                     <div className=" col-12 d p-5">
-                        {/* <p> Thinker out of the box. <br />
-            that defines me, <br />
-            what led me to learn on my own, to be self-taught <br />
-            without any agenda of any institution, <br />
-             just learning from who, where, and when I choose.</p> */}
+
                         I would like to thank you for the time spent reading my Portfolio. <br />
                         I hope that we can finally develop a prosperous and fruitful <br />
                         working relationship.

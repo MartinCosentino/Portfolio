@@ -124,7 +124,7 @@ export const Skills = () => {
 
                 <div className="row">
                     <div className="col-2 skills__icons">
-                        <label className="skill__ux">UX/UI<i class="fas fa-palette "></i></label>
+                        <label className="skill__ux">UX/UI<i className="fas fa-palette "></i></label>
                     </div>
                     <div className="col-10 skills__icons">
 
