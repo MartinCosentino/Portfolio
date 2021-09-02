@@ -45,11 +45,11 @@ export const AboutScreen = () => {
                     <div className="row">
 
 
-                        <div className="about__textLeft col-12 order-sm-1 col-lg-3 col-md-7 mt-3 ">
+                        <div className="about__textLeft col-12 order-sm-1 col-lg-3 col-md-7 mt-3 mt-md-0 mt-xl-0 ">
                             <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', paddingTop: '4rem', paddingBottom: '4rem', paddingRight: '1.5rem', paddingLeft: '1.5rem' }}>
                                 <h2 className="about__textTilt" >My name is <b className="about__NameText">Martin Cosentino</b>,</h2>
                                 <p className="about__textTilt"> I'm 25 years old and i from Rosario city,</p>
-                                <p className="about__textTilt">Looking for my first job opportunity in the IT world,</p>
+                                <p className="about__textTilt">currently working as front-end developer at <a style={{ textDecoration: 'none', color: 'orange' }} href="https://www.lafabricaimaginaria.com/">LFI</a>,</p>
                             </Tilt>
 
 
@@ -63,7 +63,7 @@ export const AboutScreen = () => {
                         </div>
 
                         <div className="about__textRight col-12 order-sm-1 col-lg-3 col-md-6">
-                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', paddingTop: '6.5rem', paddingBottom: '6.5rem', padding: '4rem' }}>
+                            <Tilt className="about__textTilt" style={{ background: 'none', border: '0.5px inset orange', paddingTop: '6.5rem', paddingBottom: '6.5rem', padding: '4.5rem' }}>
                                 <h2 >My Goal</h2><p> is to master the MERN JavaScript stack,</p>
                                 <p>but I'm always open to new technologies.</p>
                             </Tilt>
